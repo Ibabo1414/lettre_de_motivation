@@ -1,12 +1,14 @@
 html{
     margin: 100px;
-    box-shadow: 5px 5px 5px black;
-    
-
+    box-shadow: 5px 5px 5px 10px;
 }
 body{
     font-family: 'Dancing Script', cursive;
     font-size: 2em;
+}
+.colonne-droite{
+    text-align: right;
+    margin-right: 80px;
 }
 
 section{
@@ -18,20 +20,13 @@ article p
     font-size: 1em;
 }
 
-.colonne_gauche ul{
+.colonne-gauche{
     list-style-type: none;
+    margin-left: 80px;
 }
-.colonne_droite{
-   
- float: right;
-   
- }
- .colonne_gauche{
-
-      
- }
-
  footer{
-     float: right;
-     
+     text-align: right;
+     padding: 10px;
+     margin-bottom: 350px;
+     margin-right: 80px;
  }
